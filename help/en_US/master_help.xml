@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY a2d5702442d0b980ed21c6dffb3309ff0 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/ANALOG_READ_SB.xml">
+<!ENTITY a87ab19972b79da7fe4420c62d7714220 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/ANALOG_WRITE_SB.xml">
+<!ENTITY a7e4fdcf1e5e309162c45ecc7aaf6526f SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/ARDUINO_SETUP.xml">
+<!ENTITY af4bf40add9572f059b7b32df18b48e95 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/DCMOTOR_SB.xml">
+<!ENTITY a01c39e59af858ef5145d2c04ccf6ac1b SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/DIGITAL_READ_SB.xml">
+<!ENTITY aff0aa4171dda07b8ae57ae97908357b4 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/DIGITAL_WRITE_SB.xml">
+<!ENTITY a11f4aa663e56cc5006aa9aab2c795724 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/ENCODER_SB.xml">
+<!ENTITY a047f1db814a138071b54cae598bd7243 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/INTERRUPT_SB.xml">
+<!ENTITY a5b190290f93ae1cf6528ef10877bf422 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/SERVO_WRITE_SB.xml">
+<!ENTITY a584099205a798b21d9a43b4ae13dcadf SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/TIME_SAMPLE.xml">
+<!ENTITY a8d3c8d6400ce0c8575df56e2d18af10b SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/close_serial.xml">
+<!ENTITY a2a7527400fdea883e4c454c16ae7431d SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_analog_in.xml">
+<!ENTITY a44e9e1db4cffccd09663eb5b4ad45fb3 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_analog_in_volt.xml">
+<!ENTITY aeb9ccd8c39170dd3ad1eef9c168d0308 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_analog_out.xml">
+<!ENTITY ac1bd0e091893725782fca0f6f5d65b86 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_analog_out_volt.xml">
+<!ENTITY a2463c366193b2ba22897c54f48d5b978 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_arduino_a_control.xml">
+<!ENTITY a2b2becfc1aeb3ccd9a94c6ab6db78100 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_arduino_d_control.xml">
+<!ENTITY af67cf6819a9aef0484b4b6addce8be57 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_arduino_meter.xml">
+<!ENTITY acc30b7ee86d082c1beacffbbc6ce9129 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_dcmotor_release.xml">
+<!ENTITY aba6dcb2fdcd90320544b2fc824a366f4 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_dcmotor_run.xml">
+<!ENTITY aba03312d922e40f22da9fd3a1c4d9191 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_dcmotor_setup.xml">
+<!ENTITY a3afdefe5bbc974fc3be44c6449dd1318 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_digital_in.xml">
+<!ENTITY a6c7cb78d69626f9d16cf526a1e88e1ae SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_digital_out.xml">
+<!ENTITY ae4d2dbcb5368530529456283568ff0c5 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_servo_attach.xml">
+<!ENTITY a43a39feab0639f669e80c7591d0f056c SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_servo_detach.xml">
+<!ENTITY a0e78152eef29b687024ba84bb584f3a7 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/cmd_servo_move.xml">
+<!ENTITY a816a3b89bcac5766b3941a8632d9baa6 SYSTEM "/home/manas/Documents/scilab-arduino/scilab-arduino-linux-srikant/arduino-1.2/help/en_US/open_serial.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='arduino_toolbox_manual'>
+    <title>Arduino toolbox</title>
+  </info>
+
+<part xml:id='section_c81b4a57f4486e50a533732328fcb8e9'>
+<title>Arduino toolbox</title>
+&a2d5702442d0b980ed21c6dffb3309ff0;
+&a87ab19972b79da7fe4420c62d7714220;
+&a7e4fdcf1e5e309162c45ecc7aaf6526f;
+&af4bf40add9572f059b7b32df18b48e95;
+&a01c39e59af858ef5145d2c04ccf6ac1b;
+&aff0aa4171dda07b8ae57ae97908357b4;
+&a11f4aa663e56cc5006aa9aab2c795724;
+&a047f1db814a138071b54cae598bd7243;
+&a5b190290f93ae1cf6528ef10877bf422;
+&a584099205a798b21d9a43b4ae13dcadf;
+&a8d3c8d6400ce0c8575df56e2d18af10b;
+&a2a7527400fdea883e4c454c16ae7431d;
+&a44e9e1db4cffccd09663eb5b4ad45fb3;
+&aeb9ccd8c39170dd3ad1eef9c168d0308;
+&ac1bd0e091893725782fca0f6f5d65b86;
+&a2463c366193b2ba22897c54f48d5b978;
+&a2b2becfc1aeb3ccd9a94c6ab6db78100;
+&af67cf6819a9aef0484b4b6addce8be57;
+&acc30b7ee86d082c1beacffbbc6ce9129;
+&aba6dcb2fdcd90320544b2fc824a366f4;
+&aba03312d922e40f22da9fd3a1c4d9191;
+&a3afdefe5bbc974fc3be44c6449dd1318;
+&a6c7cb78d69626f9d16cf526a1e88e1ae;
+&ae4d2dbcb5368530529456283568ff0c5;
+&a43a39feab0639f669e80c7591d0f056c;
+&a0e78152eef29b687024ba84bb584f3a7;
+&a816a3b89bcac5766b3941a8632d9baa6;
+</part>
+</book>
